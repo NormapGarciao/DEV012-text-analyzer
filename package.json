@@ -41,5 +41,8 @@
     "createdAt": "2023-09-08T22:43:57.624Z",
     "version": "7.0.0",
     "commit": "83f7c5b700737b948113a4c663f5a826eb3cbe83"
+  },
+  "dependencies": {
+    "playwright-chromium": "^1.38.0"
   }
 }

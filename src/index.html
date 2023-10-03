@@ -7,7 +7,37 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
+<header>
+  <h1><strong>Analizador de texto</strong></h1>
+</header>
+
 <body>
+
+  <div class="box">
+    <textarea name="user-input"></textarea>
+  </div>
+
+  <div class="texto">
+    <button id="reset-button">Limpiar texto</button>
+  </div>
+
+  <div id="recuento">
+    <ul>
+      <li class="item" data-testid="word-count">recuento de palabras</li>
+      <li class="item" data-testid="character-count">recuento de caracteres</li>
+      <li class="item" data-testid="character-no-spaces-count">recuento de caracteres excluyendo espacios y signos de
+        puntuacion</li>
+      <li class="item" data-testid="number-count">recuento de numeros</li>
+      <li class="item" data-testid="number-sum">suma total de numeros</li>
+      <li class="item" data-testid="word-length-average">longitud media de palabras</li>
+    </ul>
+  </div>
+
+  <footer>
+    <p><em>Norma Garcia-Text Analyzer</em></p>
+  </footer>
+
   <script src="index.js" type="module"></script>
 </body>
+
 </html>
