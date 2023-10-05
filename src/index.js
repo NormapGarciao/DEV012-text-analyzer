@@ -8,12 +8,21 @@ function contador1() {
   document.querySelector('[data-testid="character-no-spaces-count"]').innerHTML = 'recuento de caracteres excluyendo espacios y signos de puntuacion ' + analyzer.getCharacterCountExcludingSpaces(text);
   document.querySelector('[data-testid="number-count"]').innerHTML = 'recuento de numeros ' + analyzer.getNumberCount(text);
   document.querySelector('[data-testid="number-sum"]').innerHTML = 'suma total de numeros ' + analyzer.getNumberSum(text);
-  //document.querySelector('data-testid="word-length-average"').innerHTML = 'longitud media de palabras ' + analyzer.getAverageWordLength(text);
+  document.querySelector('[data-testid="word-length-average"]').innerHTML = 'longitud media de palabras ' + analyzer.getAverageWordLength(text);
 }
 const textarea = document.querySelector("textarea[name='user-input']");
 const resetButton = document.getElementById("reset-button");
+
 resetButton.addEventListener("click", () => {
   textarea.value = "";
+  
+  document.querySelector('[data-testid="word-count"]').innerHTML = 'recuento de palabras ' + 0;
+  document.querySelector('[data-testid="character-count"]').innerHTML = 'recuento de caracteres ' + 0;
+  document.querySelector('[data-testid="character-no-spaces-count"]').innerHTML = 'recuento de caracteres excluyendo espacios y signos de puntuacion ' + 0;
+  document.querySelector('[data-testid="number-count"]').innerHTML = 'recuento de numeros ' + 0;
+  document.querySelector('[data-testid="number-sum"]').innerHTML = 'suma total de numeros ' + 0;
+  document.querySelector('[data-testid="word-length-average"]').innerHTML = 'longitud media de palabras ' + 0;
+
 });
 textarea.addEventListener("input", contador1);
 

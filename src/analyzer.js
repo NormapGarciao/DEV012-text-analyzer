@@ -2,7 +2,6 @@ const analyzer = {
   getWordCount: (text) => {
     //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.   
     return text.split(/\s+/).length; //divide el texto y cuenta la cantidad de palabras
-    
   },
   getCharacterCount: (text) => {
     //TODO: esta función debe retornar el recuento de caracteres que se encuentran en el parámetro `text` de tipo `string`.
@@ -25,7 +24,7 @@ const analyzer = {
       totalLength += words[i].length;  //suma la longitud de cada palabra
     }
     const averageLength = totalLength / words.length;
-    return parseFloat(averageLength.toFixed(2));  //convierte la cadena en un número de punto flotante
+    return parseFloat(averageLength.toFixed(2));  //convierte la cadena en un número de punto flotante 
   },
   getNumberCount: (text) => {
     //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.

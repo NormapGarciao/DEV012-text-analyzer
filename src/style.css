@@ -1,6 +1,6 @@
 h1 {
     margin: 0;
-    color: blue;
+    color: rgb(177, 79, 188);
 }
 
 header {
@@ -8,8 +8,7 @@ header {
 }
 
 body {
-    
-    background-color: lightblue;
+    background-color: aquamarine;
     align-items: center;
     
 }
@@ -24,7 +23,8 @@ body {
 }
 
 textarea[name="user-input"] {
-    border: 4px solid blue;
+    border: 4px solid rgb(177, 79, 188);
+    background-color: rgb(219, 193, 230);
     width: 300px; 
     height: 150px; 
     padding: 10px;
@@ -34,16 +34,19 @@ textarea[name="user-input"] {
 }
 
 .item {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
     margin: auto;
     box-sizing: border-box;
-    border: 2px solid blue;
-    background-color: aliceblue;
+    border: 2px solid rgb(177, 79, 188);
+    background-color: rgb(219, 193, 230);
     padding: 10px;
     width: 300px;
     display: block;
 }
 
 footer {
-    color: blue;
+    text-align: center;
+    color: rgb(177, 79, 188);
     padding: 10px;
 }
