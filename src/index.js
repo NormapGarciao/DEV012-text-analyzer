@@ -15,6 +15,7 @@ const resetButton = document.getElementById("reset-button");
 
 resetButton.addEventListener("click", () => {
   textarea.value = "";
+  contador1(); 
   
   document.querySelector('[data-testid="word-count"]').innerHTML = 'recuento de palabras ' + 0;
   document.querySelector('[data-testid="character-count"]').innerHTML = 'recuento de caracteres ' + 0;
