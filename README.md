@@ -14,11 +14,11 @@ FUNCIONALIDADES
 4. Cantidad de carácteres sin espacios: En este punto la aplicación se encarga de mostrar el número total de    carácteresingresados sin contar espacios ni signos de puntuación.
 5. Cantidad de números: En este punto la aplicación identificará y contará la cantidad de números ingresados    en el area de texto.
 6. Suma total de números: En este punto la aplicación identifica si el texto contiene números y cálcula la      suma total.
-7. Longitus promedio de las palabras: En este punto la aplicación cálcula el promedio de palabras ingresadas    en texto, dividiendo el número total de carácteres entre el número de palabras.
+7. Longitud promedio de las palabras: En este punto la aplicación cálcula el promedio de palabras ingresadas    en texto, dividiendo el número total de carácteres entre el número de palabras.
 
 INDICACIONES DE USO
 
-1. Abril el analizador de textoen el navegador.
+1. Abrir el analizador de texto en el navegador.
 2. Ingresar el texto deseado en el cajón, donde se visualizará las funcionalidades.
 3. Para borrar el contenido del texto y restablecer las funcionalidades se da click en area de limpiar texto.
 
