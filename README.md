@@ -16,11 +16,6 @@ FUNCIONALIDADES
 6. Suma total de números: En este punto la aplicación identifica si el texto contiene números y cálcula la      suma total.
 7. Longitud promedio de las palabras: En este punto la aplicación cálcula el promedio de palabras ingresadas    en texto, dividiendo el número total de carácteres entre el número de palabras.
 
-INDICACIONES DE USO
-
-1. Abrir el analizador de texto en el navegador.
-2. Ingresar el texto deseado en el cajón, donde se visualizará las funcionalidades.
-3. Para borrar el contenido del texto y restablecer las funcionalidades se da click en area de limpiar texto.
 
 
 
